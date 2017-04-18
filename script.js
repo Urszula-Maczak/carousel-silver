@@ -1,5 +1,5 @@
 $(function() {
-			var carouselList = $("#carousel ul li");
+			var carouselList = $("#carousel ul");
 
 			setInterval(changeSlide, 3000);
 
