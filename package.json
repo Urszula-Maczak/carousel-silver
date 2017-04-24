@@ -1,0 +1,28 @@
+{
+  "name": "jquery-carousel",
+  "version": "1.0.0",
+  "description": "jquery carousel task",
+  "main": "script.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Urszula-Maczak/carousel-silver.git"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "author": "Urszula Mączak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Urszula-Maczak/carousel-silver/issues"
+  },
+  "homepage": "https://github.com/Urszula-Maczak/carousel-silver#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}

@@ -1,3 +1,25 @@
+$font-color: #e74c3c
+
+.button
+	width: 50px 
+	height: 50px 
+	background-color: $font-color
+	text-align: center
+	line-height: 50px
+	color: #ccc
+	cursor: pointer
+	opacity: 0.7
+	position: absolute
+	top: 240px
+
+.controls
+
+	color: #7f8c8d
+	cursor: pointer
+	position: absolute
+	bottom: 150px
+	right: 50%
+
 #carousel
 	margin: 0 auto
 	width: 600px
@@ -22,7 +44,24 @@
 				height: 100%x
 				object-fit: cover
 				margin: auto
+#next
+	@extend .button
+	right: 30%
 
+#prev
+	@extend .button
+	left: 30%
 
+#controls
+	position: absolute
+	bottom: 150px
+	left: 630px
+	a 
+		text-decoration: none
+		font-size: 50px
+		color: $font-color
+		cursor: pointer
+		&:hover
+			opacity: 0.6
 	
 				
