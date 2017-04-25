@@ -19,9 +19,12 @@ $(function() {
 
 			$("#next").on('click', function() {
 				//console.log("Działa przód!");
-				$("img").animate({
+				
+				carouselList.animate({'marginLeft':-600}, 500, moveFirstSlide);
+				/*$("img").animate({
 					'marginLeft': '-=600px'
-				}, 500, moveFirstSlide);/*, function() {
+				}, 500, moveFirstSlide);
+					..., function() {
 					$("img").find('li:last').after($(this).find('li:first'));
 					$("img").css({marginLeft:0}); //----- http://www.my-html-codes.com/easy-jquery-carousel
 				})*/
